@@ -9,12 +9,17 @@ div#persoonal_detail{
  body{
     background-color: #230047;
     font-family: sans-serif;
+    display: grid;
+    align-items: center;
+    margin: auto;
  }
 form{
-    display: inline-block;
-    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    width: auto;
     background-color: white;
-    margin: 2% 0% 0 2.7%;
+    margin: 2% 2.7% 1% 2.7%;
     box-sizing: content-box;
     padding: 35px;
     align-self: center;
